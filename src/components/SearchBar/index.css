@@ -9,6 +9,9 @@ a:hover{
 p{
   margin: 10px;
 }
+li{
+  color: red;
+}
 
 .search-result-container{
   display: flex;
