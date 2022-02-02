@@ -1,0 +1,33 @@
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+p{
+  margin: 10px;
+}
+
+.search-result-container{
+  display: flex;
+  flex-direction: column;
+  margin: 25px 10px 0px 10px;
+}
+
+.search-result{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.story-info{
+  display: flex;
+  justify-content: flex-start;
+}
+
+#story-url{
+  color: grey;
+}
